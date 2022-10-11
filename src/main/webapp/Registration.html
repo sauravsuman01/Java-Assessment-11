@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<title>Courier Registration</title>
+<style>
+body{
+background-color: #8FBC8F;
+}
+button{
+background-color: orange;
+}
+
+input, select {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text] {
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=number]{
+  width: 35%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.new input[type=submit]:hover {
+  background-color: #45a049;
+}
+.links{
+left:50%;
+margin-left:850px;
+
+}
+</style>
+</head>
+<body>
+
+<div class="new">
+  <form action="Registration" align="center" method="get">
+  <h1>Courier Registration</h1>
+
+  <br>
+
+    <label for="name">Enter Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Name"><br>
+    
+     <label for="city">Select City</label><br>
+    <select id="city" name="city">
+      <option value="Bangalore">Bangalore</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Kolkata">Kolkata</option>
+    </select>
+    <br>
+    
+    <label for="phone">Enter Contact No.</label><br>
+    <input type="text" id="phone" name="phone" placeholder="Phone"><br>
+    
+     <label for="destination">Select Destination</label><br>
+    <select id="destination" name="destination">
+      <option value="Bangalore">Bangalore</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Mumbai">Mumbai</option>
+      <option value="Kolkata">Kolkata</option>
+    </select>
+    <br>
+    
+    <label for="weight">Enter weight (in grams)</label><br>
+    <input type="number" id="weight" name="weight" placeholder="Total Weight"><br><br><br><br>
+
+  <button style = "font-size:15px;border-radius:25px" class="btn btn-lg btn-primary btn-block">Click for Payments</button>
+  </form>
+  <br>
+  
+  
+</div>
+</body>
+</html>
